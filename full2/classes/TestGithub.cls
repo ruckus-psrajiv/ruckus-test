@@ -9,6 +9,7 @@ public class TestGithub{
 	
 	public void abc() {
 		system.debug('Test');
+		system.debug('Test2');
 		return;
 	}
 }
