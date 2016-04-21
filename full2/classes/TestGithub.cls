@@ -8,6 +8,6 @@ public class TestGithub{
 	}
 	
 	public void abc() {
-	
+		return;
 	}
 }
