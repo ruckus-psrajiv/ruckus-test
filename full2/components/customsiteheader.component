@@ -1,0 +1,56 @@
+<apex:component >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+    <head> 
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+        <title>Ruckus Wireless Partner Program</title> 
+        <apex:stylesheet value="{!URLFOR($Resource.partnerAssets, 'RuckusSiteStyle/site.css')}"/>
+    </head>
+
+    <body id="new" class="partnerapplications">
+        <div id="link-bar">
+            <div class="inner">
+                <div class="ctrls">
+                    <!-- a href="{!$Page.partner_homepage}">Apply Now</a> |
+                    <a href="{!$Page.partner_homepage}">Login</a-->
+                </div><!-- /.ctrls -->
+            </div><!-- /.inner -->
+        </div><!-- /#link-bar -->
+        <div id="header">
+            <div class="inner">
+                <h1><a href="/">Ruckus Wireless Partner Program</a></h1>
+            </div>
+        </div>
+
+<!-- 
+<body id="home" class="homepage"> 
+         <center>
+          <div id="MainBody" class="home">
+            <div id="Wrapper">
+                <div id="WrapperHeader"></div>
+                <div id="WrapperContent">
+                    <div id="Header">
+                        <div class="selfClear">
+                            <div id="SiteId"><a href="/"><img src="https://cs3.salesforce.com/resource/1280175520000/RuckusLogo" alt="Site Logo"/></a></div>
+                                <div id="Toolbar" class="selfClear">
+                                    <ul class="links">
+                                        <li class="search">
+                                        <form action="http://www.ruckuswireless.com/search.php">
+                                            <fieldset>
+                                                <input class="button" type="image" src="http://www.ruckuswireless.com/images/search.gif" />
+                                                <input type="hidden" name="search" value="1" />
+                                                <input class="query" name="query" type="text" value="" size="22" placeholder="Search" />
+                                            </fieldset>
+                                        </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                           </div> 
+                       </div>
+                   </div>
+               </div>
+           </div>
+         </center>
+ -->
+    </body>
+</html>
+ </apex:component>
