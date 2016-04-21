@@ -11,8 +11,4 @@ public class TestGithub{
 		system.debug('Test');
 		return;
 	}
-	
-	public void def() {
-		return;
-	}	
 }
