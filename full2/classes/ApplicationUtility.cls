@@ -19,4 +19,8 @@ public with sharing class ApplicationUtility {
 		
 		return false;		
 	}
+	
+	public void testMethod(){
+		system.debug('Test Method');
+	}
 }
