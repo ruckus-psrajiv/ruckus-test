@@ -6,4 +6,8 @@ public class TestGithub{
 	public void printName(){
 		system.debug('Test Anant');
 	}
+	
+	public void abc() {
+	
+	}
 }
