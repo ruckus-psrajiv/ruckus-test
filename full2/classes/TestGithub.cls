@@ -8,6 +8,7 @@ public class TestGithub{
 	}
 	
 	public void abc() {
+		system.debug('Test');
 		return;
 	}
 }
